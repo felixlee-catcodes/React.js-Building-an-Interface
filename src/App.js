@@ -1,7 +1,13 @@
+import { VscCalendar } from "react-icons/vsc";
 function App() {
   return (
-    <div className="App">
-      <h1>Your Appointments</h1>
+    <div className='App'>
+      <header>
+        <h1>
+          <VscCalendar />
+          Your Appointments
+        </h1>
+      </header>
     </div>
   );
 }
